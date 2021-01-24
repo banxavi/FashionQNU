@@ -1,0 +1,10 @@
+2021-01-24T04:59:43+00:00 CRITICAL Uncaught Error: Call to undefined function wp_pagenavi() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php:69
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 69
+

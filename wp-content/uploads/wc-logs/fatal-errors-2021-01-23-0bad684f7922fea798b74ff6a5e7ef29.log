@@ -1,0 +1,72 @@
+2021-01-23T03:52:53+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 67
+
+2021-01-23T03:54:11+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\header.php:30
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\storefront\page.php(13): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\header.php on line 30
+
+2021-01-23T03:55:36+00:00 CRITICAL syntax error, unexpected identifier "category", expecting "]" in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 67
+
+2021-01-23T03:55:46+00:00 CRITICAL syntax error, unexpected identifier "per_page", expecting "]" in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 67
+
+2021-01-23T04:03:16+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 67
+
+2021-01-23T04:12:55+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 72
+
+2021-01-23T04:12:57+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 72
+
+2021-01-23T04:29:22+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php:11
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 11
+
+2021-01-23T04:29:23+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php:11
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 11
+
+2021-01-23T04:29:23+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php:11
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 11
+
+2021-01-23T04:29:38+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 70
+
+2021-01-23T04:33:52+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\storefront\functions.php on line 2
+
